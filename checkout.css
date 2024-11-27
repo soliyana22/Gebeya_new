@@ -1,0 +1,118 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .order-summary {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .order-summary img {
+    width: 100%;
+    max-width: 100px;
+    margin: auto;
+    display: block;
+  }
+  .order-summary .total {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .payment-method{
+      border:#ddd solid 1px;
+     border-radius:15px;
+     padding:10px;
+  }
+  .payment-method .form-check-input:checked {
+    background-color: #ff9400;
+    border-color: #ff9400;
+  }
+  .place-order-btn {
+    background-color: #ff9400;
+    color: white;
+    border: none;
+  }
+  .place-order-btn:hover {
+    background-color: #e08000;
+  }
+  .form1{
+      border-radius: 15px;
+      border:#ddd solid 1px;
+     border-radius:15px;
+     padding:20px;
+  }
+.all_footer{
+    display:flex;
+    color:white;
+    margin-left: 1000px;
+    gap:20px;
+}
+.about,.products,.discover{
+ width: 147px;
+height:174px;
+top: 101px;
+left: 911px;
+gap: 8px;
+opacity: 0px;
+}
+.about{
+    left:911px;
+}
+.products{
+    left:1098px;
+}
+.discover{
+    left:1285px;
+}
+.about h3,.products h3,.discover h3{
+font-family: Poppins;
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.about h5,.products h5,.discover h5{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+footer {
+    background: #882BEC;
+    height: 423px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0; /* Ensure no extra margins */
+    padding: 0; /* Remove padding if unnecessary */
+}
+.browse_container {
+    margin-bottom: 0; /* Ensure no extra space */
+    padding-bottom: 0;
+    display: flex;
+}
+
+.All_card {
+    margin-bottom: 0; /* Remove unnecessary bottom margin */
+}
+        
+
+
+body {
+margin: 0;
+padding: 0;
+}
+
+
+
+
+

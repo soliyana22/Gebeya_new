@@ -1,0 +1,289 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Add to Cart</title>
+        <link rel="stylesheet" href="Add_to_Cart.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="head1">
+            <div class="navbar">
+                <div class="logo">ገ</div>
+                <nav>
+                    <ul class="nav-links">
+                        <li>
+                            <select>
+                                <option value="" hidden>Register/Sign In</option>
+                                <option value="register">Register</option>
+                                <option value="signin">Sign In</option>
+                            </select>
+                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li>
+                            <select>
+                                <option value="" hidden>More</option>
+                                <option value="value1">Perfumes</option>
+                                <option value="value2">Jeweleries</option>
+                                <option value="">Gym wears</option>
+                                <option>Vintage wears</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <button class="search_btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="user-options">
+                    <span>EN/Currency</span>
+                </div>
+            </div>
+        </header>
+    <div class="container">
+  <nav class="nav-second">
+    <ul>
+        <li>
+            <a href="/">Home</a>   
+        </li>
+        <li>
+            <span aria-hidden="true">&gt;</span>
+            <a href="/kids">Kids</a>
+        </li>
+        <li>
+            <span aria-hidden="true">&gt;</span>
+            <a href="/">Shoes</a>   
+        </li>
+        <li>
+            <span aria-hidden="true">&gt;</span>
+            <a href="/kids">Sneakers</a>
+        </li>
+    </ul>
+  </nav> 
+  <section class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="snicker_images">
+                <img src="images/pink_shoes.jpg"/>
+                <div class="small_snickers">
+                    <img src="images/pink_shoes.jpg"/>
+                    <img src="images/pink_shoes.jpg"/>
+                    <img src="images/pink_shoes.jpg"/>
+                    <img src="images/pink_shoes.jpg"/>
+                </div>
+            </div>
+            <div class="container mt-5">
+            <div class="burberry">
+                <div class="burberry_first">
+                <h1>Bruberry Shine</h1>
+                <button class="heart_back">
+                <i class="fa fa-heart-o"></i>
+                </button>
+            </div>
+            </div>
+            <div class="bur_cost">
+                <div class="bur_cost_first">
+                    <p>Brand: <strong>FENDI</strong></p><hr>
+                    <h2>$150</h2>
+                    <p style="text-decoration: line-through; color: gray;">$300</p>
+    
+                    <p style="color: green; background-color: #d4edda; display: inline-block; padding: 5px; border-radius: 5px;">-50%</p>
+                   
+                </div>
+               
+                <p style="color: green;">50 units left</p>
+                
+                <p style="color: gray; font-size: 0.9rem;">+ Shipping fee may vary on location</p>
+                <div class="bur_cost_second">
+                <i class="fa fa-star" style="color: #ffc107; font-size: 1.5rem;"></i>
+                <p>1k+ rating</p>
+                </div><hr>
+                
+            </div>
+            <div class="Quantity">
+                <h3>Quantity:</h3>
+                <div class="btns">
+                <button id="minus">-</button>
+                <button id="amount">0</button>
+                <button id="plus">+</button>
+                </div>
+            </div>     
+            <div class="Quantity">
+                <h3>Size:</h3>
+                <div class="btns">
+                <button class="size_num">20</button>
+                <button class="size_num">25</button>
+                <button class="size_num">32</button>
+                <button class="size_num">37</button>
+                <strong><a href="" style="margin-left:100px">See all size guides</a></strong>
+                </div>
+            </div>     
+            <div class="colors">
+                <h3>Colors:</h3>
+                <div class="btns_color"><button class="btns_color" style="background-color:#EBCDD5;"></button></div>
+                <div class="btns_color"><button class="btns_color" style="background: #4444FF;"></button></div>
+                <div class="btns_color"><button class="btns_color" style="background: #FF4646;"></button></div> 
+                <div class="btns_color"><button class="btns_color" style="background: #242425;"></button></div> 
+            </div>  
+           <div class="purchase">
+            <button id="save">Save to folder</button>
+            <button id="buy">Buy Now</button>
+           </div> 
+           <p style="color:green;margin:10px;">Pickup & Pay on collection available</p>          
+        </div>
+       </div>
+        <div class="col-md-4">
+            <div class="delivery">
+                
+            <h1>Delivery & Returns</h1><hr>
+            <label><Strong>Location</Strong></label>
+            <select>
+                <option>Location</option>   
+            </select>
+            <label><Strong>Sub location</Strong></label>
+            <select>
+                <option>sub location</option> 
+            </select>
+            <div class="delivery_text">
+            <h1>Delivery</h1>
+            <i class="fa-thin fa-truck"></i>
+            <p>Estimated delivery time is 1-12 business days<br><strong>For Same-Day-Delivery:</strong> Please place your order before 12pm
+            <br><strong>Next-Day-Delivery:</strong> Orders placed after 12pm will be delivered the next day.<br>
+            <strong>Note:</strong>Availability may vary by location
+            </p>
+
+            <h1>Delivery</h1>
+            <i class="fa-thin fa-truck"></i>
+            <p>Estimated delivery time is 1-12 business days<br><strong>For Same-Day-Delivery:</strong> Please place your order before 12pm
+            <br><strong>Next-Day-Delivery:</strong> Orders placed after 12pm will be delivered the next day.<br>
+            <strong>Note:</strong>Availability may vary by location
+            </p>
+
+        </div>
+    </div>
+
+    </div>
+  </div> 
+ <div class="overview">
+    <div class="All_btn">
+        <button>Overview</button>
+        <button >Description</button>
+        <button>Warranty</button>
+        <button>Reviews</button>
+  </div>
+  <div class="overview_text">
+    <ul>
+        <li>Available in a wide range of colors, patterns, and patterns and themes to appeal to kids.</li>
+        <li>Rubber outsoles with good traction to prevent slips and falls.</li>
+        <li>Built-in arch support to help maintain healthy foot development.</li>
+        <li>Soft insoles and adequate padding to support growing feet.</li><hr>
+    </ul>
+    <strong>Similar items you may like</strong>
+  </div>
+<div class="card_container">
+  <div class="card">
+    <div class="card_img">
+        <div class="icon_btn">
+        <div class="head">
+        <button id="circle"><i class="fa fa-heart-o"></i></button>
+        <button>instock</button>
+        </div>
+        <img src="images/jeans_shoes.png">
+        <div class="">
+            <p><strong>Butline blue</strong></p>
+            <p>FENDI</p><br><br>
+            <p></p>
+        </div>
+    
+</div>
+</div>
+</div>
+<div class="card">
+    <div class="card_img">
+        <div class="icon_btn">
+        <div class="head">
+        <button id="circle"><i class="fa fa-heart-o"></i></button>
+        <button>instock</button>
+        </div>
+    </div>
+        <img src="images/pink_kid_shoe.png">
+        <div class="">
+            <p><strong>Butline blue</strong></p>
+            <p>FENDI</p><br><br>
+            <p></p>
+        </div>
+ 
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- <div class="card">
+<div class="card_img">
+        <div class="icon_btn">
+        <div class="head">
+        <button id="circle"><i class="fa fa-heart-o"></i></button>
+        <button>instock</button>
+        </div>
+        <img src="images/jeans_shoes.png">
+    </div>
+</div>
+</div>
+<div class="card">
+<div class="card_second">
+  <button style="width:30px;height:30px">kids</button>
+  <i class="fa fa-star" style="color:yellow"></i><p>2k+ rating</p>  
+</div>
+</div> -->
+
+</div>
+</div>
+</section>
+
+
+<script>
+    // JavaScript for handling quantity changes
+    const minusButton = document.getElementById('minus');
+    const plusButton = document.getElementById('plus');
+    const amountButton = document.getElementById('amount');
+
+    let quantity = 0; // Initial quantity
+
+    // Function to update the displayed quantity
+    function updateQuantity() {
+        amountButton.textContent = quantity;
+
+        // Disable minus button if quantity is 0
+        minusButton.disabled = quantity <= 0;
+    }
+
+    // Add event listener for the minus button
+    minusButton.addEventListener('click', () => {
+        if (quantity > 0) {
+            quantity--;
+            updateQuantity();
+        }
+    });
+
+    // Add event listener for the plus button
+    plusButton.addEventListener('click', () => {
+        quantity++;
+        updateQuantity();
+    });
+
+    // Initial state update
+    updateQuantity();
+</script>
+</body>
+</html>
+
+    </body>
+</html>
